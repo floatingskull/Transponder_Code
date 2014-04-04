@@ -37,8 +37,8 @@ User Editable Values
 *********************/
 
 //Set assNum to the asset number of the projector package.
-//const String assNum = "TEST";
-String assNum = "";
+const String assNum = "TEST";
+//String assNum = "";
 
 //Set ident to the unique identifier for this board.
 const int ident = 1;
@@ -116,11 +116,11 @@ void setup() {
   
   /*********************/
   //THIS IS TROUBLESHOOTING CODE, TAKE IT OUT BEFORE RELEASE
-  if(ident == 1) { assNum = "TEST"; /*projType = -1;*/ }
-  if(ident == 2) { assNum = "37030"; /*projType = 2;*/ }
-  if(ident == 3) { assNum = "18615"; /*projType = 1;*/ }
-  if(ident == 4) { assNum = "23064"; /*projType = 0;*/ }
-  if(ident == 5) { assNum = "20082"; /*projType = 1;*/ }
+  //if(ident == 1) { assNum = "TEST"; /*projType = -1;*/ }
+  //if(ident == 2) { assNum = "37030"; /*projType = 2;*/ }
+  //if(ident == 3) { assNum = "18615"; /*projType = 1;*/ }
+  //if(ident == 4) { assNum = "23064"; /*projType = 0;*/ }
+  //if(ident == 5) { assNum = "20082"; /*projType = 1;*/ }
   /*********************/
   
   
