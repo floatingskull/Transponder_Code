@@ -2,8 +2,6 @@ Transponder_Code
 ================
 
 Code for the Arduino projector cart transponders.  This code is meant to run on an Arduino Yun with an appropriate DB9 shield.  It allows the device to be connected to a data projector, which it will poll for information.  It then reports this information back to a Crestron controller, running the PortableProjectorPackage server code.
-<<<<<<< HEAD
-=======
 
 
 Setup Instructions
@@ -26,4 +24,3 @@ The on-board LED will blink at certain times and for a certain number of blinks 
 3 blinks - Successfully sent data to the server and received a coherent reply from the server.
 
 10 blinks - This is the error indicator.  The device encountered an error of some type during execution.  This error will usually be reported to RoomView's error log.
->>>>>>> 92bb9eae580c63fd1cca05cc75218b611a489ecb

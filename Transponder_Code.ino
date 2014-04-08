@@ -38,21 +38,14 @@ User Editable Values
 
 //Set assNum to the asset number of the projector package.
 const String assNum = "TEST";
-<<<<<<< HEAD
-//String assNum = "";
-=======
->>>>>>> 92bb9eae580c63fd1cca05cc75218b611a489ecb
 
 //Set ident to the unique identifier for this board.
 const int ident = 1;
 
-<<<<<<< HEAD
-=======
 //Store the IP address and port number for communicating to the Crestron processor here.
 const byte serverIP[4] = { XXX, XXX, XXX, XXX };
 const int serverPort = XXXX;
 
->>>>>>> 92bb9eae580c63fd1cca05cc75218b611a489ecb
 /*********************
 Global Variables and Libraries
 *********************/
@@ -98,14 +91,7 @@ const int comSwitchDelay = 0;
 const unsigned long resetMinutes = 120;
 //LCD pin storing variable.
 LiquidCrystal lcd(8, 9, 4, 5, 6, 7);
-<<<<<<< HEAD
-//Store the IP address and port number for communicating to the Crestron processor here.
-//const byte serverIP[4] = { 172, 22, 144, 81 };
-const byte serverIP[4] = { 172, 25, 90, 5 };
-const int serverPort = 5555;
-=======
 
->>>>>>> 92bb9eae580c63fd1cca05cc75218b611a489ecb
 
 
 
@@ -127,20 +113,6 @@ void setup() {
   //If the lcd is connected, start it up.
   if(lcdConnected) { lcd.begin(16,2); }
   
-<<<<<<< HEAD
-  
-  /*********************/
-  //THIS IS TROUBLESHOOTING CODE, TAKE IT OUT BEFORE RELEASE
-  //if(ident == 1) { assNum = "TEST"; /*projType = -1;*/ }
-  //if(ident == 2) { assNum = "37030"; /*projType = 2;*/ }
-  //if(ident == 3) { assNum = "18615"; /*projType = 1;*/ }
-  //if(ident == 4) { assNum = "23064"; /*projType = 0;*/ }
-  //if(ident == 5) { assNum = "20082"; /*projType = 1;*/ }
-  /*********************/
-  
-  
-=======
->>>>>>> 92bb9eae580c63fd1cca05cc75218b611a489ecb
   //Determine what type of projector we're connected to.
   projComSetup();
   
